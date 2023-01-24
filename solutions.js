@@ -21,19 +21,11 @@
  * concat
  */
 function isTrue(input){
-    if(input === true){
-        return true;
-    } else {
-        return false;
-    }
+    return input === true;
 }
 
 function isFalse(input){
-    if(input === false){
-        return true;
-    } else {
-        return false;
-    }
+    return input === false;
 }
 
 function not(input){
